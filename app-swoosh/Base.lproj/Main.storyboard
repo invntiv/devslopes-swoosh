@@ -123,7 +123,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="7de-FG-B2K" kind="show" identifier="2to3" id="Mbe-fR-GhK"/>
+                                    <action selector="onNextTapped:" destination="AzS-58-Nbc" eventType="touchUpInside" id="LRC-gK-dNZ"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="yal-oH-0Qj">
@@ -212,6 +212,9 @@
                             <constraint firstItem="7nD-Un-pgV" firstAttribute="leading" secondItem="npv-pq-nlP" secondAttribute="leading" constant="20" id="zQJ-VL-EFh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="7de-FG-B2K" kind="show" identifier="skillVCSegue" id="M2P-Zs-3Jz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jBb-xw-yyC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="TSv-OT-CvB" userLabel="Exit" sceneMemberID="exit"/>
