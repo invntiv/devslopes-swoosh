@@ -10,6 +10,6 @@ import Foundation
 
 // Use a struct whenever you can because they are faster than a class!
 struct Player {
-    var desiredLeague: String?
-    var selectedSkillLevel: String?
+    var desiredLeague: String!
+    var selectedSkillLevel: String!
 }
