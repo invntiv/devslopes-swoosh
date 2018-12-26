@@ -62,7 +62,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="AzS-58-Nbc" kind="show" identifier="1to2" id="rRa-O0-bsZ"/>
+                                    <action selector="onGetStartedTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BIb-xc-pdn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -91,6 +91,7 @@
                     <connections>
                         <outlet property="bgImg" destination="TI2-Nt-ZIE" id="ktc-fw-8M2"/>
                         <outlet property="swoosh" destination="x97-gQ-uhS" id="chv-RC-8aU"/>
+                        <segue destination="AzS-58-Nbc" kind="show" identifier="leagueVCSegue" id="nbH-tj-ymj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

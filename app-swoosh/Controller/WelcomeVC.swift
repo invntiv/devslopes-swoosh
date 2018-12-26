@@ -17,10 +17,10 @@ class WelcomeVC: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
-        
+    
+    @IBAction func onGetStartedTapped(_ sender: Any) {
+        performSegue(withIdentifier: "leagueVCSegue", sender: self)
     }
-
-
+   
 }
 
